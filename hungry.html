@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入 Bootstrap -->
+    <link href="../TestProject/css/bootstrap.css" rel="stylesheet">
+    <link href="../TestProject/css/custom.css" rel="stylesheet">
+    <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+    <!--[if lt IE 9]>          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>       <![endif]-->
+</head>
+<body>
+<div id="app">
+    <header>
+        <div class="icon-location-box">
+            <div class="icon-location"></div>
+        </div>
+        <div class="location-text">沈阳市规划大厦<i class="fa fa-caret-down"></i></div>
+    </header>
+    <顶部搜索框></顶部搜索框>
+
+    <ul class="foodtype">
+        <div class="row">
+            <li class="col-2 offset-1 text-center" onclick="">
+                <img src="img/dcfl01.png">
+                <p>美食</p>
+            </li>
+            <li class="col-2 text-center" onclick="">
+                <img src="img/dcfl02.png">
+                <p>早餐</p>
+            </li>
+            <li class="col-2 text-center" onclick="">
+                <img src="img/dcfl03.png">
+                <p>跑腿代购</p>
+            </li>
+            <li class="col-2 text-center" onclick="">
+                <img src="img/dcfl04.png">
+                <p>汉堡披萨</p>
+            </li>
+            <li class="col-2 text-center" onclick="">
+                <img src="img/dcfl05.png">
+                <p>甜品饮品</p>
+            </li>
+        </div>
+        <div class="row">
+            <li class="col-2 offset-1 text-center" onclick="">
+                <img src="img/dcfl06.png">
+                <p>速食简餐</p>
+            </li>
+            <li class="col-2 text-center" onclick="">
+                <img src="img/dcfl07.png">
+                <p>地方小吃</p>
+            </li>
+            <li class="col-2 text-center" onclick="">
+                <img src="img/dcfl08.png">
+                <p>米粉面馆</p>
+            </li>
+            <li class="col-2 text-center" onclick="">
+                <img src="img/dcfl09.png">
+                <p>包子粥铺</p>
+            </li>
+            <li class="col-2 text-center" onclick="">
+                <img src="img/dcfl10.png">
+                <p>炸鸡炸串</p>
+            </li>
+        </div>
+    </ul>
+
+    <底部的菜单栏></底部的菜单栏>
+</div>
+
+<!--顶部组件-->
+<template id="">
+    <div class="search-fixed-top">
+        <div class="search-box">
+            <i class="fa fa-search"></i>搜索饿了么商家、商品名称
+        </div>
+    </div>
+</template>
+
+<!--底部组件-->
+<template id="mainNavTemp">
+    <div class="row">
+        <h6 class="col-2 offset-2"><i class="=fa fa-home"></i>首页</h6>
+        <h6 class="col-2"><i class="=fa fa-home"></i>首页</h6>
+        <h6 class="col-2"><i class="=fa fa-home"></i>首页</h6>
+        <h6 class="col-2"><i class="=fa fa-home"></i>首页</h6>
+    </div>
+</template>
+
+<script src="../TestProject/js/jquery-3.3.1.js" rel="external nofollow" ></script>
+<script src="../TestProject/js/bootstrap.js"></script>
+
+<script src="../TestProject/js/vue.js"></script>
+<script src="../TestProject/js/vue-router.js"></script>
+<script src="../TestProject/js/vue-resources.js"></script>
+<!--vue加载-->
+<script src="../TestProject/js/custom.js"></script>
+
+</body>
+</html>
